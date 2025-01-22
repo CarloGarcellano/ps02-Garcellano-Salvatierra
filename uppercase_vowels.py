@@ -1,13 +1,13 @@
 
 sentence = "Python is fun and Python is easy to learn!"
 vowels = "aeiou"
-uppercasever = ""
+uppercase_ver = ""
 
 for char in sentence:
     if char in vowels:
-        uppercasever += char.upper()
+        uppercase_ver += char.upper()
     else:
-        uppercasever += char
+        uppercase_ver += char
 
-for letter in uppercasever:
+for letter in uppercase_ver:
     print(letter, end=" ")
